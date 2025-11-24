@@ -371,13 +371,13 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtEmailTemplate">
-			<HintPath>$(RelativePkgFolderPath)/CrtEmailTemplate/$(StandalonePackageAssemblyPath)/CrtEmailTemplate.dll</HintPath>
+		<Reference Include="CrtCalendar">
+			<HintPath>$(RelativePkgFolderPath)/CrtCalendar/$(StandalonePackageAssemblyPath)/CrtCalendar.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtCalendar">
-			<HintPath>$(RelativePkgFolderPath)/CrtCalendar/$(StandalonePackageAssemblyPath)/CrtCalendar.dll</HintPath>
+		<Reference Include="CrtEmailTemplate">
+			<HintPath>$(RelativePkgFolderPath)/CrtEmailTemplate/$(StandalonePackageAssemblyPath)/CrtEmailTemplate.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -562,6 +562,8 @@
 		<Compile Remove="$(RelativePkgFolderPath)/UsrTest/Schemas/UsrTrafficLight/UsrTrafficLight.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrTest/Schemas/UsrTrafficLight/UsrTrafficLight.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrTest/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrTest/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrTest/Schemas/UsrYacht/UsrYacht.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrTest/Schemas/UsrYacht/UsrYacht.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrTest/Schemas/UsrYachtDriveType/UsrYachtDriveType.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrTest/Schemas/UsrYachtDriveType/UsrYachtDriveType.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrTest/Schemas/UsrYachtStatus/UsrYachtStatus.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrTest/Schemas/UsrYachtStatus/UsrYachtStatus.cs')" />
 	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">
