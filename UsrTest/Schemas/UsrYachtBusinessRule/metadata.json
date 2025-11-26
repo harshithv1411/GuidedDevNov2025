@@ -45,7 +45,7 @@
             "BR2": [
               {
                 "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
-                "UId": "61c768b6-0a3f-ecea-43dc-95e1082eb8ce",
+                "UId": "581f0b82-e030-16f8-ac40-306a53b17997",
                 "BRT2": 2
               }
             ],
@@ -64,11 +64,11 @@
                     "UId": "7e0426ad-c49d-2625-2c6d-67ad69aedfbd",
                     "BRA2": {
                       "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
-                      "UId": "6cbf4b72-cd87-467f-a5c4-aca8f8daccd7"
+                      "UId": "50deebac-37dc-4594-97ab-4e836dc9a6a7"
                     },
                     "BRA3": {
                       "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleValueExpression",
-                      "UId": "03d0688f-c481-48f3-9261-d4fa0a570906"
+                      "UId": "2b3c757c-d0e2-46c8-acd7-1c1bd2045fe1"
                     },
                     "BSFL1": {
                       "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleFilterLookupExpression",
@@ -83,8 +83,7 @@
                       "UId": "7d2541f3-5608-928c-4db1-4f6911cd0582",
                       "BRE1": "Lookup",
                       "BRE3": "Country",
-                      "BVP1": "UsrCountry",
-                      "BVF1": "null"
+                      "BVP1": "UsrCountry"
                     }
                   }
                 ]
@@ -134,11 +133,11 @@
                     "UId": "b2865886-8594-2917-8b87-20b492feb30d",
                     "BRA2": {
                       "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
-                      "UId": "6b5519a0-19d1-4578-a729-edc5b6d612e7"
+                      "UId": "e4526cda-fb84-4cdd-9108-2131afe2e340"
                     },
                     "BRA3": {
                       "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleValueExpression",
-                      "UId": "0a83960f-366e-41a3-b480-8b90fa300f20"
+                      "UId": "42021792-b136-48e3-a5b2-bb1857194c1a"
                     },
                     "BSVS1": [
                       {
@@ -148,8 +147,7 @@
                           "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
                           "UId": "7123304e-c870-af23-9cf5-cd2b60383c92",
                           "BRE1": "Lookup",
-                          "BRX1": "UsrCity",
-                          "BRX2": "null"
+                          "BRX1": "UsrCity"
                         },
                         "BRA3": {
                           "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleEmptyValueExpression",
@@ -198,11 +196,11 @@
                     "UId": "4632226b-734d-0faa-e2b6-0ffde23c3201",
                     "BRA2": {
                       "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
-                      "UId": "c27743bf-5cef-4682-a361-8c5b5fe76364"
+                      "UId": "28cae2c5-faab-408b-8917-3fb880b56452"
                     },
                     "BRA3": {
                       "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleValueExpression",
-                      "UId": "284992ee-6ff4-46e8-8e39-f1791c05b4b8"
+                      "UId": "d756665c-ad6e-45fc-a162-0fc31edd00b3"
                     },
                     "BSVS1": [
                       {
@@ -211,8 +209,7 @@
                         "BRA2": {
                           "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
                           "UId": "2572e434-55be-163c-2fd4-aef6cf5acb0e",
-                          "BRX1": "UsrCountry",
-                          "BRX2": "null"
+                          "BRX1": "UsrCountry"
                         },
                         "BRA3": {
                           "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",

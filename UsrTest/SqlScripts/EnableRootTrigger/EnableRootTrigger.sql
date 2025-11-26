@@ -1,0 +1,1 @@
+Alter table [dbo].[SysAdminUnit] ENABLE TRIGGER[TRSysAdminUnitRoot]
