@@ -225,7 +225,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 					"label": "$Resources.Strings.PDS_UsrColumn12_s42ojc1",
 					"labelPosition": "auto",
 					"control": "$PDS_UsrColumn12_s42ojc1",
-					"visible": true,
+					"visible": false,
 					"readonly": true,
 					"placeholder": "",
 					"tooltip": ""
@@ -1141,7 +1141,12 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 					}
 				],
 				async: false
-			}
+			},
+			"validators":{
+                            "required": {
+                                "type": "crt.Required"
+                            }
+                        }
 		}/**SCHEMA_VALIDATORS*/
 	};
 });
